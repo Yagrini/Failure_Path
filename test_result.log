@@ -1,0 +1,20 @@
+#T#Failure_Path;nominal;Failure_Path_1;test/Failure_Path.ptu
+#VA#local_x1;TRUE;TRUE
+#VA#local_x2;TRUE;TRUE
+#VA#local_x3;FALSE;FALSE
+#VA#local_x4;TRUE;TRUE
+#VA#local_x5;FALSE;FALSE
+#VA#local_x6;TRUE;TRUE
+#VA#local_x7;TRUE;TRUE
+#VA#local_x8;TRUE;TRUE
+#VA#res;9;9
+9
+#VO# local_x1;15;4;TRUE;
+#VO# local_x2;16;4;TRUE;
+#VO# local_x3;17;4;FALSE;
+#VO# local_x4;18;4;TRUE;
+#VO# local_x5;19;4;FALSE;
+#VO# local_x6;20;4;TRUE;
+#VO# local_x7;21;4;TRUE;
+#VO# local_x8;22;4;TRUE;
+#VO# res;23;4;9;

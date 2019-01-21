@@ -1,0 +1,70 @@
+AUTO GEN HEADER TO DO
+
+.--------------------------------------------------------.
+|                     DESCRIPTIF                         |
+.--------------------------------------------------------.
+
+----------------------------------------------------------
+| SERVICE=Failure_Path        FAMILLE=nominal
+| TEST=Failure_Path_1
+| location=test/Failure_Path.ptu
+----------------------------------------------------------
+  o local_x1  ligne:15  colonne:4
+    RESULTAT = OK
+    VA = TRUE
+    VO = TRUE
+
+  o local_x2  ligne:16  colonne:4
+    RESULTAT = OK
+    VA = TRUE
+    VO = TRUE
+
+  o local_x3  ligne:17  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x4  ligne:18  colonne:4
+    RESULTAT = OK
+    VA = TRUE
+    VO = TRUE
+
+  o local_x5  ligne:19  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x6  ligne:20  colonne:4
+    RESULTAT = OK
+    VA = TRUE
+    VO = TRUE
+
+  o local_x7  ligne:21  colonne:4
+    RESULTAT = OK
+    VA = TRUE
+    VO = TRUE
+
+  o local_x8  ligne:22  colonne:4
+    RESULTAT = OK
+    VA = TRUE
+    VO = TRUE
+
+  o res  ligne:23  colonne:4
+    RESULTAT = OK
+    VA = 9
+    VO = 9
+
+----------------------------------------------------------
+| RESULTAT=OK
+----------------------------------------------------------
+.--------------------------------------------------------.
+|                       RESUME                           |
+.--------------------------------------------------------.
+
+Date: Mon Dec  3 17:44:56 2018
+Nombre de test(s) exécuté(s):1
+
+Test OK:
+-> Failure_Path_1
+
+Test KO:

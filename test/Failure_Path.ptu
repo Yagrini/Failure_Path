@@ -1,0 +1,510 @@
+ENTETE test, , 
+
+##include "Failure_Path.h"
+#TBOOL local_x1,local_x2,local_x3,local_x4,local_x5,local_x6,local_x7,local_x8;
+    
+    #int res;
+DEBUT
+
+SERVICE Failure_Path
+    -- Declarations des parametres du service
+    
+
+    TEST Failure_Path_1
+    FAMILLE nominal
+		ELEMENT
+            VAR local_x1,		init = TRUE ,		va = TRUE
+			VAR local_x2,		init = TRUE ,		va = TRUE
+			VAR local_x3,		init = FALSE ,		va = FALSE
+			VAR local_x4,		init = TRUE ,		va = TRUE
+			VAR local_x5,		init = FALSE ,		va = FALSE
+			VAR local_x6,		init = TRUE ,		va = TRUE
+			VAR local_x7,		init = TRUE ,		va = TRUE
+			VAR local_x8,		init = TRUE ,		va = TRUE
+           	VAR res,		init = 0 ,		va = 9
+    		#res = Failure_Path(local_x1,local_x2,local_x3,local_x4,local_x5,local_x6,local_x7,local_x8);
+    	FIN ELEMENT
+    FIN TEST
+
+    TEST Failure_Path_2
+    FAMILLE nominal
+        ELEMENT
+            VAR local_x1,       init = FALSE ,       va = FALSE
+            VAR local_x2,       init = TRUE ,       va = TRUE
+            VAR local_x3,       init = FALSE ,      va = FALSE
+            VAR local_x4,       init = TRUE ,       va = TRUE
+            VAR local_x5,       init = FALSE ,      va = FALSE
+            VAR local_x6,       init = TRUE ,       va = TRUE
+            VAR local_x7,       init = TRUE ,       va = TRUE
+            VAR local_x8,       init = TRUE ,       va = TRUE
+            VAR res,        init = 0 ,      va = 3
+            #res = Failure_Path(local_x1,local_x2,local_x3,local_x4,local_x5,local_x6,local_x7,local_x8);
+        FIN ELEMENT
+    FIN TEST
+
+    TEST Failure_Path_3
+    FAMILLE nominal
+        ELEMENT
+            VAR local_x1,       init = FALSE ,       va = FALSE
+            VAR local_x2,       init = FALSE ,       va = FALSE
+            VAR local_x3,       init = TRUE ,      va = TRUE
+            VAR local_x4,       init = TRUE ,       va = TRUE
+            VAR local_x5,       init = FALSE ,      va = FALSE
+            VAR local_x6,       init = TRUE ,       va = TRUE
+            VAR local_x7,       init = TRUE ,       va = TRUE
+            VAR local_x8,       init = TRUE ,       va = TRUE
+            VAR res,        init = 0 ,      va = 1
+            #res = Failure_Path(local_x1,local_x2,local_x3,local_x4,local_x5,local_x6,local_x7,local_x8);
+        FIN ELEMENT
+    FIN TEST
+
+    TEST Failure_Path_4
+    FAMILLE nominal
+        ELEMENT
+            VAR local_x1,       init = FALSE ,       va = FALSE
+            VAR local_x2,       init = FALSE ,       va = FALSE
+            VAR local_x3,       init = FALSE ,      va = FALSE
+            VAR local_x4,       init = TRUE ,       va = TRUE
+            VAR local_x5,       init = TRUE ,      va = TRUE
+            VAR local_x6,       init = TRUE ,       va = TRUE
+            VAR local_x7,       init = TRUE ,       va = TRUE
+            VAR local_x8,       init = TRUE ,       va = TRUE
+            VAR res,        init = 0 ,      va = 2
+            #res = Failure_Path(local_x1,local_x2,local_x3,local_x4,local_x5,local_x6,local_x7,local_x8);
+        FIN ELEMENT
+    FIN TEST
+
+    TEST Failure_Path_5
+    FAMILLE nominal
+        ELEMENT
+            VAR local_x1,       init = FALSE ,       va = FALSE
+            VAR local_x2,       init = FALSE ,       va = FALSE
+            VAR local_x3,       init = FALSE ,      va = FALSE
+            VAR local_x4,       init = TRUE ,       va = TRUE
+            VAR local_x5,       init = FALSE ,      va = FALSE
+            VAR local_x6,       init = TRUE ,       va = TRUE
+            VAR local_x7,       init = TRUE ,       va = TRUE
+            VAR local_x8,       init = TRUE ,       va = TRUE
+            VAR res,        init = 0 ,      va = 5
+            #res = Failure_Path(local_x1,local_x2,local_x3,local_x4,local_x5,local_x6,local_x7,local_x8);
+        FIN ELEMENT
+    FIN TEST
+
+    TEST Failure_Path_6
+    FAMILLE nominal
+        ELEMENT
+            VAR local_x1,       init = FALSE ,       va = FALSE
+            VAR local_x2,       init = FALSE ,       va = FALSE
+            VAR local_x3,       init = FALSE ,      va = FALSE
+            VAR local_x4,       init = TRUE ,       va = TRUE
+            VAR local_x5,       init = FALSE ,      va = FALSE
+            VAR local_x6,       init = TRUE ,       va = TRUE
+            VAR local_x7,       init = FALSE ,       va = FALSE
+            VAR local_x8,       init = TRUE ,       va = TRUE
+            VAR res,        init = 0 ,      va = 0
+            #res = Failure_Path(local_x1,local_x2,local_x3,local_x4,local_x5,local_x6,local_x7,local_x8);
+        FIN ELEMENT
+    FIN TEST
+
+    TEST Failure_Path_7
+    FAMILLE nominal
+        ELEMENT
+            VAR local_x1,       init = FALSE ,       va = FALSE
+            VAR local_x2,       init = FALSE ,       va = FALSE
+            VAR local_x3,       init = FALSE ,      va = FALSE
+            VAR local_x4,       init = TRUE ,       va = TRUE
+            VAR local_x5,       init = FALSE ,      va = FALSE
+            VAR local_x6,       init = FALSE ,       va = FALSE
+            VAR local_x7,       init = TRUE ,       va = TRUE
+            VAR local_x8,       init = TRUE ,       va = TRUE
+            VAR res,        init = 0 ,      va = 0
+            #res = Failure_Path(local_x1,local_x2,local_x3,local_x4,local_x5,local_x6,local_x7,local_x8);
+        FIN ELEMENT
+    FIN TEST
+
+    TEST Failure_Path_8
+    FAMILLE nominal
+        ELEMENT
+            VAR local_x1,       init = FALSE ,       va = FALSE
+            VAR local_x2,       init = FALSE ,       va = FALSE
+            VAR local_x3,       init = FALSE ,      va = FALSE
+            VAR local_x4,       init = TRUE ,       va = TRUE
+            VAR local_x5,       init = FALSE ,      va = FALSE
+            VAR local_x6,       init = FALSE ,       va = FALSE
+            VAR local_x7,       init = FALSE ,       va = FALSE
+            VAR local_x8,       init = TRUE ,       va = TRUE
+            VAR res,        init = 0 ,      va = 0
+            #res = Failure_Path(local_x1,local_x2,local_x3,local_x4,local_x5,local_x6,local_x7,local_x8);
+        FIN ELEMENT
+    FIN TEST
+
+    TEST Failure_Path_9
+    FAMILLE nominal
+        ELEMENT
+            VAR local_x1,       init = FALSE ,       va = FALSE
+            VAR local_x2,       init = FALSE ,       va = FALSE
+            VAR local_x3,       init = FALSE ,      va = FALSE
+            VAR local_x4,       init = FALSE ,       va = FALSE
+            VAR local_x5,       init = TRUE ,      va = TRUE
+            VAR local_x6,       init = TRUE ,       va = TRUE
+            VAR local_x7,       init = TRUE ,       va = TRUE
+            VAR local_x8,       init = TRUE ,       va = TRUE
+            VAR res,        init = 0 ,      va = 5
+            #res = Failure_Path(local_x1,local_x2,local_x3,local_x4,local_x5,local_x6,local_x7,local_x8);
+        FIN ELEMENT
+    FIN TEST
+
+    TEST Failure_Path_10
+    FAMILLE nominal
+        ELEMENT
+            VAR local_x1,       init = FALSE ,       va = FALSE
+            VAR local_x2,       init = FALSE ,       va = FALSE
+            VAR local_x3,       init = FALSE ,      va = FALSE
+            VAR local_x4,       init = FALSE ,       va = FALSE
+            VAR local_x5,       init = TRUE ,      va = TRUE
+            VAR local_x6,       init = TRUE ,       va = TRUE
+            VAR local_x7,       init = FALSE ,       va = FALSE
+            VAR local_x8,       init = TRUE ,       va = TRUE
+            VAR res,        init = 0 ,      va = 0
+            #res = Failure_Path(local_x1,local_x2,local_x3,local_x4,local_x5,local_x6,local_x7,local_x8);
+        FIN ELEMENT
+    FIN TEST
+
+    TEST Failure_Path_11
+    FAMILLE nominal
+        ELEMENT
+            VAR local_x1,       init = FALSE ,       va = FALSE
+            VAR local_x2,       init = FALSE ,       va = FALSE
+            VAR local_x3,       init = FALSE ,      va = FALSE
+            VAR local_x4,       init = FALSE ,       va = FALSE
+            VAR local_x5,       init = TRUE ,      va = TRUE
+            VAR local_x6,       init = FALSE ,       va = FALSE
+            VAR local_x7,       init = TRUE ,       va = TRUE
+            VAR local_x8,       init = TRUE ,       va = TRUE
+            VAR res,        init = 0 ,      va = 0
+            #res = Failure_Path(local_x1,local_x2,local_x3,local_x4,local_x5,local_x6,local_x7,local_x8);
+        FIN ELEMENT
+    FIN TEST
+
+    TEST Failure_Path_12
+    FAMILLE nominal
+        ELEMENT
+            VAR local_x1,       init = FALSE ,       va = FALSE
+            VAR local_x2,       init = FALSE ,       va = FALSE
+            VAR local_x3,       init = FALSE ,      va = FALSE
+            VAR local_x4,       init = FALSE ,       va = FALSE
+            VAR local_x5,       init = TRUE ,      va = TRUE
+            VAR local_x6,       init = FALSE ,       va = FALSE
+            VAR local_x7,       init = FALSE ,       va = FALSE
+            VAR local_x8,       init = TRUE ,       va = TRUE
+            VAR res,        init = 0 ,      va = 0
+            #res = Failure_Path(local_x1,local_x2,local_x3,local_x4,local_x5,local_x6,local_x7,local_x8);
+        FIN ELEMENT
+    FIN TEST
+
+    TEST Failure_Path_13
+    FAMILLE nominal
+        ELEMENT
+            VAR local_x1,       init = FALSE ,       va = FALSE
+            VAR local_x2,       init = FALSE ,       va = FALSE
+            VAR local_x3,       init = FALSE ,      va = FALSE
+            VAR local_x4,       init = FALSE ,       va = FALSE
+            VAR local_x5,       init = FALSE ,      va = FALSE
+            VAR local_x6,       init = TRUE ,       va = TRUE
+            VAR local_x7,       init = TRUE ,       va = TRUE
+            VAR local_x8,       init = TRUE ,       va = TRUE
+            VAR res,        init = 0 ,      va = 5
+            #res = Failure_Path(local_x1,local_x2,local_x3,local_x4,local_x5,local_x6,local_x7,local_x8);
+        FIN ELEMENT
+    FIN TEST
+
+    TEST Failure_Path_14
+    FAMILLE nominal
+        ELEMENT
+            VAR local_x1,       init = FALSE ,       va = FALSE
+            VAR local_x2,       init = FALSE ,       va = FALSE
+            VAR local_x3,       init = FALSE ,      va = FALSE
+            VAR local_x4,       init = FALSE ,       va = FALSE
+            VAR local_x5,       init = FALSE ,      va = FALSE
+            VAR local_x6,       init = TRUE ,       va = TRUE
+            VAR local_x7,       init = FALSE ,       va = FALSE
+            VAR local_x8,       init = TRUE ,       va = TRUE
+            VAR res,        init = 0 ,      va = 0
+            #res = Failure_Path(local_x1,local_x2,local_x3,local_x4,local_x5,local_x6,local_x7,local_x8);
+        FIN ELEMENT
+    FIN TEST
+
+    TEST Failure_Path_15
+    FAMILLE nominal
+        ELEMENT
+            VAR local_x1,       init = FALSE ,       va = FALSE
+            VAR local_x2,       init = FALSE ,       va = FALSE
+            VAR local_x3,       init = FALSE ,      va = FALSE
+            VAR local_x4,       init = FALSE ,       va = FALSE
+            VAR local_x5,       init = FALSE ,      va = FALSE
+            VAR local_x6,       init = FALSE ,       va = FALSE
+            VAR local_x7,       init = TRUE ,       va = TRUE
+            VAR local_x8,       init = TRUE ,       va = TRUE
+            VAR res,        init = 0 ,      va = 0
+            #res = Failure_Path(local_x1,local_x2,local_x3,local_x4,local_x5,local_x6,local_x7,local_x8);
+        FIN ELEMENT
+    FIN TEST
+
+    TEST Failure_Path_16
+    FAMILLE nominal
+        ELEMENT
+            VAR local_x1,       init = FALSE ,       va = FALSE
+            VAR local_x2,       init = FALSE ,       va = FALSE
+            VAR local_x3,       init = FALSE ,      va = FALSE
+            VAR local_x4,       init = FALSE ,       va = FALSE
+            VAR local_x5,       init = FALSE ,      va = FALSE
+            VAR local_x6,       init = FALSE ,       va = FALSE
+            VAR local_x7,       init = FALSE ,       va = FALSE
+            VAR local_x8,       init = TRUE ,       va = TRUE
+            VAR res,        init = 0 ,      va = 0
+            #res = Failure_Path(local_x1,local_x2,local_x3,local_x4,local_x5,local_x6,local_x7,local_x8);
+        FIN ELEMENT
+    FIN TEST
+
+    TEST Failure_Path_17
+    FAMILLE nominal
+        ELEMENT
+            VAR local_x1,       init = FALSE ,       va = FALSE
+            VAR local_x2,       init = TRUE ,       va = TRUE
+            VAR local_x3,       init = FALSE ,      va = FALSE
+            VAR local_x4,       init = FALSE ,       va = FALSE
+            VAR local_x5,       init = FALSE ,      va = FALSE
+            VAR local_x6,       init = FALSE ,       va = FALSE
+            VAR local_x7,       init = FALSE ,       va = FALSE
+            VAR local_x8,       init = FALSE ,       va = FALSE
+            VAR res,        init = 0 ,      va = 4
+            #res = Failure_Path(local_x1,local_x2,local_x3,local_x4,local_x5,local_x6,local_x7,local_x8);
+        FIN ELEMENT
+    FIN TEST
+
+    TEST Failure_Path_18
+    FAMILLE nominal
+        ELEMENT
+            VAR local_x1,       init = FALSE ,       va = FALSE
+            VAR local_x2,       init = FALSE ,       va = FALSE
+            VAR local_x3,       init = TRUE ,      va = TRUE
+            VAR local_x4,       init = FALSE ,       va = FALSE
+            VAR local_x5,       init = FALSE ,      va = FALSE
+            VAR local_x6,       init = FALSE ,       va = FALSE
+            VAR local_x7,       init = FALSE ,       va = FALSE
+            VAR local_x8,       init = FALSE ,       va = FALSE
+            VAR res,        init = 0 ,      va = 7
+            #res = Failure_Path(local_x1,local_x2,local_x3,local_x4,local_x5,local_x6,local_x7,local_x8);
+        FIN ELEMENT
+    FIN TEST
+
+    TEST Failure_Path_19
+    FAMILLE nominal
+        ELEMENT
+            VAR local_x1,       init = FALSE ,       va = FALSE
+            VAR local_x2,       init = FALSE ,       va = FALSE
+            VAR local_x3,       init = FALSE ,      va = FALSE
+            VAR local_x4,       init = TRUE ,       va = TRUE
+            VAR local_x5,       init = TRUE ,      va = TRUE
+            VAR local_x6,       init = FALSE ,       va = FALSE
+            VAR local_x7,       init = FALSE ,       va = FALSE
+            VAR local_x8,       init = FALSE ,       va = FALSE
+            VAR res,        init = 0 ,      va = 2
+            #res = Failure_Path(local_x1,local_x2,local_x3,local_x4,local_x5,local_x6,local_x7,local_x8);
+        FIN ELEMENT
+    FIN TEST
+
+    TEST Failure_Path_20
+    FAMILLE nominal
+        ELEMENT
+            VAR local_x1,       init = FALSE ,       va = FALSE
+            VAR local_x2,       init = FALSE ,       va = FALSE
+            VAR local_x3,       init = FALSE ,      va = FALSE
+            VAR local_x4,       init = TRUE ,       va = TRUE
+            VAR local_x5,       init = FALSE ,      va = FALSE
+            VAR local_x6,       init = TRUE ,       va = TRUE
+            VAR local_x7,       init = TRUE ,       va = TRUE
+            VAR local_x8,       init = FALSE ,       va = FALSE
+            VAR res,        init = 0 ,      va = 8
+            #res = Failure_Path(local_x1,local_x2,local_x3,local_x4,local_x5,local_x6,local_x7,local_x8);
+        FIN ELEMENT
+    FIN TEST
+
+    TEST Failure_Path_21
+    FAMILLE nominal
+        ELEMENT
+            VAR local_x1,       init = FALSE ,       va = FALSE
+            VAR local_x2,       init = FALSE ,       va = FALSE
+            VAR local_x3,       init = FALSE ,      va = FALSE
+            VAR local_x4,       init = TRUE ,       va = TRUE
+            VAR local_x5,       init = FALSE ,      va = FALSE
+            VAR local_x6,       init = TRUE ,       va = TRUE
+            VAR local_x7,       init = FALSE ,       va = FALSE
+            VAR local_x8,       init = FALSE ,       va = FALSE
+            VAR res,        init = 0 ,      va = 6
+            #res = Failure_Path(local_x1,local_x2,local_x3,local_x4,local_x5,local_x6,local_x7,local_x8);
+        FIN ELEMENT
+    FIN TEST
+
+    TEST Failure_Path_22
+    FAMILLE nominal
+        ELEMENT
+            VAR local_x1,       init = FALSE ,       va = FALSE
+            VAR local_x2,       init = FALSE ,       va = FALSE
+            VAR local_x3,       init = FALSE ,      va = FALSE
+            VAR local_x4,       init = TRUE ,       va = TRUE
+            VAR local_x5,       init = FALSE ,      va = FALSE
+            VAR local_x6,       init = FALSE ,       va = FALSE
+            VAR local_x7,       init = TRUE ,       va = TRUE
+            VAR local_x8,       init = FALSE ,       va = FALSE
+            VAR res,        init = 0 ,      va = 0
+            #res = Failure_Path(local_x1,local_x2,local_x3,local_x4,local_x5,local_x6,local_x7,local_x8);
+        FIN ELEMENT
+    FIN TEST
+
+    TEST Failure_Path_23
+    FAMILLE nominal
+        ELEMENT
+            VAR local_x1,       init = FALSE ,       va = FALSE
+            VAR local_x2,       init = FALSE ,       va = FALSE
+            VAR local_x3,       init = FALSE ,      va = FALSE
+            VAR local_x4,       init = TRUE ,       va = TRUE
+            VAR local_x5,       init = FALSE ,      va = FALSE
+            VAR local_x6,       init = FALSE ,       va = FALSE
+            VAR local_x7,       init = FALSE ,       va = FALSE
+            VAR local_x8,       init = FALSE ,       va = FALSE
+            VAR res,        init = 0 ,      va = 0
+            #res = Failure_Path(local_x1,local_x2,local_x3,local_x4,local_x5,local_x6,local_x7,local_x8);
+        FIN ELEMENT
+    FIN TEST
+
+    TEST Failure_Path_24
+    FAMILLE nominal
+        ELEMENT
+            VAR local_x1,       init = FALSE ,       va = FALSE
+            VAR local_x2,       init = FALSE ,       va = FALSE
+            VAR local_x3,       init = FALSE ,      va = FALSE
+            VAR local_x4,       init = FALSE ,       va = FALSE
+            VAR local_x5,       init = TRUE ,      va = TRUE
+            VAR local_x6,       init = TRUE ,       va = TRUE
+            VAR local_x7,       init = TRUE ,       va = TRUE
+            VAR local_x8,       init = FALSE ,       va = FALSE
+            VAR res,        init = 0 ,      va = 8
+            #res = Failure_Path(local_x1,local_x2,local_x3,local_x4,local_x5,local_x6,local_x7,local_x8);
+        FIN ELEMENT
+    FIN TEST
+
+    TEST Failure_Path_25
+    FAMILLE nominal
+        ELEMENT
+            VAR local_x1,       init = FALSE ,       va = FALSE
+            VAR local_x2,       init = FALSE ,       va = FALSE
+            VAR local_x3,       init = FALSE ,      va = FALSE
+            VAR local_x4,       init = FALSE ,       va = FALSE
+            VAR local_x5,       init = TRUE ,      va = TRUE
+            VAR local_x6,       init = TRUE ,       va = TRUE
+            VAR local_x7,       init = FALSE ,       va = FALSE
+            VAR local_x8,       init = FALSE ,       va = FALSE
+            VAR res,        init = 0 ,      va = 6
+            #res = Failure_Path(local_x1,local_x2,local_x3,local_x4,local_x5,local_x6,local_x7,local_x8);
+        FIN ELEMENT
+    FIN TEST
+
+    TEST Failure_Path_26
+    FAMILLE nominal
+        ELEMENT
+            VAR local_x1,       init = FALSE ,       va = FALSE
+            VAR local_x2,       init = FALSE ,       va = FALSE
+            VAR local_x3,       init = FALSE ,      va = FALSE
+            VAR local_x4,       init = FALSE ,       va = FALSE
+            VAR local_x5,       init = TRUE ,      va = TRUE
+            VAR local_x6,       init = FALSE ,       va = FALSE
+            VAR local_x7,       init = TRUE ,       va = TRUE
+            VAR local_x8,       init = FALSE ,       va = FALSE
+            VAR res,        init = 0 ,      va = 0
+            #res = Failure_Path(local_x1,local_x2,local_x3,local_x4,local_x5,local_x6,local_x7,local_x8);
+        FIN ELEMENT
+    FIN TEST
+
+    TEST Failure_Path_27
+    FAMILLE nominal
+        ELEMENT
+            VAR local_x1,       init = FALSE ,       va = FALSE
+            VAR local_x2,       init = FALSE ,       va = FALSE
+            VAR local_x3,       init = FALSE ,      va = FALSE
+            VAR local_x4,       init = FALSE ,       va = FALSE
+            VAR local_x5,       init = TRUE ,      va = TRUE
+            VAR local_x6,       init = FALSE ,       va = FALSE
+            VAR local_x7,       init = FALSE ,       va = FALSE
+            VAR local_x8,       init = FALSE ,       va = FALSE
+            VAR res,        init = 0 ,      va = 0
+            #res = Failure_Path(local_x1,local_x2,local_x3,local_x4,local_x5,local_x6,local_x7,local_x8);
+        FIN ELEMENT
+    FIN TEST
+
+    TEST Failure_Path_28
+    FAMILLE nominal
+        ELEMENT
+            VAR local_x1,       init = FALSE ,       va = FALSE
+            VAR local_x2,       init = FALSE ,       va = FALSE
+            VAR local_x3,       init = FALSE ,      va = FALSE
+            VAR local_x4,       init = FALSE ,       va = FALSE
+            VAR local_x5,       init = FALSE ,      va = FALSE
+            VAR local_x6,       init = TRUE ,       va = TRUE
+            VAR local_x7,       init = TRUE ,       va = TRUE
+            VAR local_x8,       init = FALSE ,       va = FALSE
+            VAR res,        init = 0 ,      va = 8
+            #res = Failure_Path(local_x1,local_x2,local_x3,local_x4,local_x5,local_x6,local_x7,local_x8);
+        FIN ELEMENT
+    FIN TEST
+
+    TEST Failure_Path_29
+    FAMILLE nominal
+        ELEMENT
+            VAR local_x1,       init = FALSE ,       va = FALSE
+            VAR local_x2,       init = FALSE ,       va = FALSE
+            VAR local_x3,       init = FALSE ,      va = FALSE
+            VAR local_x4,       init = FALSE ,       va = FALSE
+            VAR local_x5,       init = FALSE ,      va = FALSE
+            VAR local_x6,       init = TRUE ,       va = TRUE
+            VAR local_x7,       init = FALSE ,       va = FALSE
+            VAR local_x8,       init = FALSE ,       va = FALSE
+            VAR res,        init = 0 ,      va = 6
+            #res = Failure_Path(local_x1,local_x2,local_x3,local_x4,local_x5,local_x6,local_x7,local_x8);
+        FIN ELEMENT
+    FIN TEST
+
+    TEST Failure_Path_30
+    FAMILLE nominal
+        ELEMENT
+            VAR local_x1,       init = FALSE ,       va = FALSE
+            VAR local_x2,       init = FALSE ,       va = FALSE
+            VAR local_x3,       init = FALSE ,      va = FALSE
+            VAR local_x4,       init = FALSE ,       va = FALSE
+            VAR local_x5,       init = FALSE ,      va = FALSE
+            VAR local_x6,       init = FALSE ,       va = FALSE
+            VAR local_x7,       init = TRUE ,       va = TRUE
+            VAR local_x8,       init = FALSE ,       va = FALSE
+            VAR res,        init = 0 ,      va = 0
+            #res = Failure_Path(local_x1,local_x2,local_x3,local_x4,local_x5,local_x6,local_x7,local_x8);
+        FIN ELEMENT
+    FIN TEST
+
+    TEST Failure_Path_31
+    FAMILLE nominal
+        ELEMENT
+            VAR local_x1,       init = FALSE ,       va = FALSE
+            VAR local_x2,       init = FALSE ,       va = FALSE
+            VAR local_x3,       init = FALSE ,      va = FALSE
+            VAR local_x4,       init = FALSE ,       va = FALSE
+            VAR local_x5,       init = FALSE ,      va = FALSE
+            VAR local_x6,       init = FALSE ,       va = FALSE
+            VAR local_x7,       init = FALSE ,       va = FALSE
+            VAR local_x8,       init = FALSE ,       va = FALSE
+            VAR res,        init = 0 ,      va = 0
+            #res = Failure_Path(local_x1,local_x2,local_x3,local_x4,local_x5,local_x6,local_x7,local_x8);
+        FIN ELEMENT
+    FIN TEST
+
+    
+FIN SERVICE
