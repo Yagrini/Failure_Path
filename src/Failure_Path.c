@@ -16,19 +16,19 @@ if (X1)
 		retval = 3;
 	}else
 	{
-		if (X2 && !(X8) )
+		if (!(X8) && X2)
 			{
-				retval = 11;
+				retval = 4;
 			}	
 			else
 			{
 				if (X3 && X8)
 				{
-					retval = 8;
+					retval = 1;
 				}
 				else
 				{
-						if (X3 && !X8)
+						if (!X8 && X3)
 						{
 							retval =7;
 						}
@@ -46,13 +46,13 @@ if (X1)
 								}
 								else
 								{
-									if ( X6 && !X7)
+									if ( !X7 && X6)
 									{
 										retval = 6;
 									}
 									else
 									{
-										if ( X6 && X7 && !X8)
+										if (!X8 &&  X7 && X6 )
 										{
 												retval = 8;
 										}
