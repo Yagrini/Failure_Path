@@ -57,14 +57,1664 @@ AUTO GEN HEADER TO DO
 ----------------------------------------------------------
 | RESULTAT=OK
 ----------------------------------------------------------
+
+----------------------------------------------------------
+| SERVICE=Failure_Path        FAMILLE=nominal
+| TEST=Failure_Path_2
+| location=test/Failure_Path.ptu
+----------------------------------------------------------
+  o local_x1  ligne:31  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x2  ligne:32  colonne:4
+    RESULTAT = OK
+    VA = TRUE
+    VO = TRUE
+
+  o local_x3  ligne:33  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x4  ligne:34  colonne:4
+    RESULTAT = OK
+    VA = TRUE
+    VO = TRUE
+
+  o local_x5  ligne:35  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x6  ligne:36  colonne:4
+    RESULTAT = OK
+    VA = TRUE
+    VO = TRUE
+
+  o local_x7  ligne:37  colonne:4
+    RESULTAT = OK
+    VA = TRUE
+    VO = TRUE
+
+  o local_x8  ligne:38  colonne:4
+    RESULTAT = OK
+    VA = TRUE
+    VO = TRUE
+
+  o res  ligne:39  colonne:4
+    RESULTAT = OK
+    VA = 3
+    VO = 3
+
+----------------------------------------------------------
+| RESULTAT=OK
+----------------------------------------------------------
+
+----------------------------------------------------------
+| SERVICE=Failure_Path        FAMILLE=nominal
+| TEST=Failure_Path_3
+| location=test/Failure_Path.ptu
+----------------------------------------------------------
+  o local_x1  ligne:47  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x2  ligne:48  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x3  ligne:49  colonne:4
+    RESULTAT = OK
+    VA = TRUE
+    VO = TRUE
+
+  o local_x4  ligne:50  colonne:4
+    RESULTAT = OK
+    VA = TRUE
+    VO = TRUE
+
+  o local_x5  ligne:51  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x6  ligne:52  colonne:4
+    RESULTAT = OK
+    VA = TRUE
+    VO = TRUE
+
+  o local_x7  ligne:53  colonne:4
+    RESULTAT = OK
+    VA = TRUE
+    VO = TRUE
+
+  o local_x8  ligne:54  colonne:4
+    RESULTAT = OK
+    VA = TRUE
+    VO = TRUE
+
+  o res  ligne:55  colonne:4
+    RESULTAT = KO
+    VA = 1
+    VO = 8
+
+----------------------------------------------------------
+| RESULTAT=KO   (88.89% des variables sont OK)
+----------------------------------------------------------
+
+----------------------------------------------------------
+| SERVICE=Failure_Path        FAMILLE=nominal
+| TEST=Failure_Path_4
+| location=test/Failure_Path.ptu
+----------------------------------------------------------
+  o local_x1  ligne:63  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x2  ligne:64  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x3  ligne:65  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x4  ligne:66  colonne:4
+    RESULTAT = OK
+    VA = TRUE
+    VO = TRUE
+
+  o local_x5  ligne:67  colonne:4
+    RESULTAT = OK
+    VA = TRUE
+    VO = TRUE
+
+  o local_x6  ligne:68  colonne:4
+    RESULTAT = OK
+    VA = TRUE
+    VO = TRUE
+
+  o local_x7  ligne:69  colonne:4
+    RESULTAT = OK
+    VA = TRUE
+    VO = TRUE
+
+  o local_x8  ligne:70  colonne:4
+    RESULTAT = OK
+    VA = TRUE
+    VO = TRUE
+
+  o res  ligne:71  colonne:4
+    RESULTAT = OK
+    VA = 2
+    VO = 2
+
+----------------------------------------------------------
+| RESULTAT=OK
+----------------------------------------------------------
+
+----------------------------------------------------------
+| SERVICE=Failure_Path        FAMILLE=nominal
+| TEST=Failure_Path_5
+| location=test/Failure_Path.ptu
+----------------------------------------------------------
+  o local_x1  ligne:79  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x2  ligne:80  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x3  ligne:81  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x4  ligne:82  colonne:4
+    RESULTAT = OK
+    VA = TRUE
+    VO = TRUE
+
+  o local_x5  ligne:83  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x6  ligne:84  colonne:4
+    RESULTAT = OK
+    VA = TRUE
+    VO = TRUE
+
+  o local_x7  ligne:85  colonne:4
+    RESULTAT = OK
+    VA = TRUE
+    VO = TRUE
+
+  o local_x8  ligne:86  colonne:4
+    RESULTAT = OK
+    VA = TRUE
+    VO = TRUE
+
+  o res  ligne:87  colonne:4
+    RESULTAT = OK
+    VA = 5
+    VO = 5
+
+----------------------------------------------------------
+| RESULTAT=OK
+----------------------------------------------------------
+
+----------------------------------------------------------
+| SERVICE=Failure_Path        FAMILLE=nominal
+| TEST=Failure_Path_6
+| location=test/Failure_Path.ptu
+----------------------------------------------------------
+  o local_x1  ligne:95  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x2  ligne:96  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x3  ligne:97  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x4  ligne:98  colonne:4
+    RESULTAT = OK
+    VA = TRUE
+    VO = TRUE
+
+  o local_x5  ligne:99  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x6  ligne:100  colonne:4
+    RESULTAT = OK
+    VA = TRUE
+    VO = TRUE
+
+  o local_x7  ligne:101  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x8  ligne:102  colonne:4
+    RESULTAT = OK
+    VA = TRUE
+    VO = TRUE
+
+  o res  ligne:103  colonne:4
+    RESULTAT = KO
+    VA = 0
+    VO = 6
+
+----------------------------------------------------------
+| RESULTAT=KO   (88.89% des variables sont OK)
+----------------------------------------------------------
+
+----------------------------------------------------------
+| SERVICE=Failure_Path        FAMILLE=nominal
+| TEST=Failure_Path_7
+| location=test/Failure_Path.ptu
+----------------------------------------------------------
+  o local_x1  ligne:111  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x2  ligne:112  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x3  ligne:113  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x4  ligne:114  colonne:4
+    RESULTAT = OK
+    VA = TRUE
+    VO = TRUE
+
+  o local_x5  ligne:115  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x6  ligne:116  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x7  ligne:117  colonne:4
+    RESULTAT = OK
+    VA = TRUE
+    VO = TRUE
+
+  o local_x8  ligne:118  colonne:4
+    RESULTAT = OK
+    VA = TRUE
+    VO = TRUE
+
+  o res  ligne:119  colonne:4
+    RESULTAT = OK
+    VA = 0
+    VO = 0
+
+----------------------------------------------------------
+| RESULTAT=OK
+----------------------------------------------------------
+
+----------------------------------------------------------
+| SERVICE=Failure_Path        FAMILLE=nominal
+| TEST=Failure_Path_8
+| location=test/Failure_Path.ptu
+----------------------------------------------------------
+  o local_x1  ligne:127  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x2  ligne:128  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x3  ligne:129  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x4  ligne:130  colonne:4
+    RESULTAT = OK
+    VA = TRUE
+    VO = TRUE
+
+  o local_x5  ligne:131  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x6  ligne:132  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x7  ligne:133  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x8  ligne:134  colonne:4
+    RESULTAT = OK
+    VA = TRUE
+    VO = TRUE
+
+  o res  ligne:135  colonne:4
+    RESULTAT = OK
+    VA = 0
+    VO = 0
+
+----------------------------------------------------------
+| RESULTAT=OK
+----------------------------------------------------------
+
+----------------------------------------------------------
+| SERVICE=Failure_Path        FAMILLE=nominal
+| TEST=Failure_Path_9
+| location=test/Failure_Path.ptu
+----------------------------------------------------------
+  o local_x1  ligne:143  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x2  ligne:144  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x3  ligne:145  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x4  ligne:146  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x5  ligne:147  colonne:4
+    RESULTAT = OK
+    VA = TRUE
+    VO = TRUE
+
+  o local_x6  ligne:148  colonne:4
+    RESULTAT = OK
+    VA = TRUE
+    VO = TRUE
+
+  o local_x7  ligne:149  colonne:4
+    RESULTAT = OK
+    VA = TRUE
+    VO = TRUE
+
+  o local_x8  ligne:150  colonne:4
+    RESULTAT = OK
+    VA = TRUE
+    VO = TRUE
+
+  o res  ligne:151  colonne:4
+    RESULTAT = OK
+    VA = 5
+    VO = 5
+
+----------------------------------------------------------
+| RESULTAT=OK
+----------------------------------------------------------
+
+----------------------------------------------------------
+| SERVICE=Failure_Path        FAMILLE=nominal
+| TEST=Failure_Path_10
+| location=test/Failure_Path.ptu
+----------------------------------------------------------
+  o local_x1  ligne:159  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x2  ligne:160  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x3  ligne:161  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x4  ligne:162  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x5  ligne:163  colonne:4
+    RESULTAT = OK
+    VA = TRUE
+    VO = TRUE
+
+  o local_x6  ligne:164  colonne:4
+    RESULTAT = OK
+    VA = TRUE
+    VO = TRUE
+
+  o local_x7  ligne:165  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x8  ligne:166  colonne:4
+    RESULTAT = OK
+    VA = TRUE
+    VO = TRUE
+
+  o res  ligne:167  colonne:4
+    RESULTAT = KO
+    VA = 0
+    VO = 6
+
+----------------------------------------------------------
+| RESULTAT=KO   (88.89% des variables sont OK)
+----------------------------------------------------------
+
+----------------------------------------------------------
+| SERVICE=Failure_Path        FAMILLE=nominal
+| TEST=Failure_Path_11
+| location=test/Failure_Path.ptu
+----------------------------------------------------------
+  o local_x1  ligne:175  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x2  ligne:176  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x3  ligne:177  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x4  ligne:178  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x5  ligne:179  colonne:4
+    RESULTAT = OK
+    VA = TRUE
+    VO = TRUE
+
+  o local_x6  ligne:180  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x7  ligne:181  colonne:4
+    RESULTAT = OK
+    VA = TRUE
+    VO = TRUE
+
+  o local_x8  ligne:182  colonne:4
+    RESULTAT = OK
+    VA = TRUE
+    VO = TRUE
+
+  o res  ligne:183  colonne:4
+    RESULTAT = OK
+    VA = 0
+    VO = 0
+
+----------------------------------------------------------
+| RESULTAT=OK
+----------------------------------------------------------
+
+----------------------------------------------------------
+| SERVICE=Failure_Path        FAMILLE=nominal
+| TEST=Failure_Path_12
+| location=test/Failure_Path.ptu
+----------------------------------------------------------
+  o local_x1  ligne:191  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x2  ligne:192  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x3  ligne:193  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x4  ligne:194  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x5  ligne:195  colonne:4
+    RESULTAT = OK
+    VA = TRUE
+    VO = TRUE
+
+  o local_x6  ligne:196  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x7  ligne:197  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x8  ligne:198  colonne:4
+    RESULTAT = OK
+    VA = TRUE
+    VO = TRUE
+
+  o res  ligne:199  colonne:4
+    RESULTAT = OK
+    VA = 0
+    VO = 0
+
+----------------------------------------------------------
+| RESULTAT=OK
+----------------------------------------------------------
+
+----------------------------------------------------------
+| SERVICE=Failure_Path        FAMILLE=nominal
+| TEST=Failure_Path_13
+| location=test/Failure_Path.ptu
+----------------------------------------------------------
+  o local_x1  ligne:207  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x2  ligne:208  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x3  ligne:209  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x4  ligne:210  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x5  ligne:211  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x6  ligne:212  colonne:4
+    RESULTAT = OK
+    VA = TRUE
+    VO = TRUE
+
+  o local_x7  ligne:213  colonne:4
+    RESULTAT = OK
+    VA = TRUE
+    VO = TRUE
+
+  o local_x8  ligne:214  colonne:4
+    RESULTAT = OK
+    VA = TRUE
+    VO = TRUE
+
+  o res  ligne:215  colonne:4
+    RESULTAT = OK
+    VA = 5
+    VO = 5
+
+----------------------------------------------------------
+| RESULTAT=OK
+----------------------------------------------------------
+
+----------------------------------------------------------
+| SERVICE=Failure_Path        FAMILLE=nominal
+| TEST=Failure_Path_14
+| location=test/Failure_Path.ptu
+----------------------------------------------------------
+  o local_x1  ligne:223  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x2  ligne:224  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x3  ligne:225  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x4  ligne:226  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x5  ligne:227  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x6  ligne:228  colonne:4
+    RESULTAT = OK
+    VA = TRUE
+    VO = TRUE
+
+  o local_x7  ligne:229  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x8  ligne:230  colonne:4
+    RESULTAT = OK
+    VA = TRUE
+    VO = TRUE
+
+  o res  ligne:231  colonne:4
+    RESULTAT = KO
+    VA = 0
+    VO = 6
+
+----------------------------------------------------------
+| RESULTAT=KO   (88.89% des variables sont OK)
+----------------------------------------------------------
+
+----------------------------------------------------------
+| SERVICE=Failure_Path        FAMILLE=nominal
+| TEST=Failure_Path_15
+| location=test/Failure_Path.ptu
+----------------------------------------------------------
+  o local_x1  ligne:239  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x2  ligne:240  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x3  ligne:241  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x4  ligne:242  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x5  ligne:243  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x6  ligne:244  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x7  ligne:245  colonne:4
+    RESULTAT = OK
+    VA = TRUE
+    VO = TRUE
+
+  o local_x8  ligne:246  colonne:4
+    RESULTAT = OK
+    VA = TRUE
+    VO = TRUE
+
+  o res  ligne:247  colonne:4
+    RESULTAT = OK
+    VA = 0
+    VO = 0
+
+----------------------------------------------------------
+| RESULTAT=OK
+----------------------------------------------------------
+
+----------------------------------------------------------
+| SERVICE=Failure_Path        FAMILLE=nominal
+| TEST=Failure_Path_16
+| location=test/Failure_Path.ptu
+----------------------------------------------------------
+  o local_x1  ligne:255  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x2  ligne:256  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x3  ligne:257  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x4  ligne:258  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x5  ligne:259  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x6  ligne:260  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x7  ligne:261  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x8  ligne:262  colonne:4
+    RESULTAT = OK
+    VA = TRUE
+    VO = TRUE
+
+  o res  ligne:263  colonne:4
+    RESULTAT = OK
+    VA = 0
+    VO = 0
+
+----------------------------------------------------------
+| RESULTAT=OK
+----------------------------------------------------------
+
+----------------------------------------------------------
+| SERVICE=Failure_Path        FAMILLE=nominal
+| TEST=Failure_Path_17
+| location=test/Failure_Path.ptu
+----------------------------------------------------------
+  o local_x1  ligne:271  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x2  ligne:272  colonne:4
+    RESULTAT = OK
+    VA = TRUE
+    VO = TRUE
+
+  o local_x3  ligne:273  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x4  ligne:274  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x5  ligne:275  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x6  ligne:276  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x7  ligne:277  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x8  ligne:278  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o res  ligne:279  colonne:4
+    RESULTAT = KO
+    VA = 4
+    VO = 11
+
+----------------------------------------------------------
+| RESULTAT=KO   (88.89% des variables sont OK)
+----------------------------------------------------------
+
+----------------------------------------------------------
+| SERVICE=Failure_Path        FAMILLE=nominal
+| TEST=Failure_Path_18
+| location=test/Failure_Path.ptu
+----------------------------------------------------------
+  o local_x1  ligne:287  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x2  ligne:288  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x3  ligne:289  colonne:4
+    RESULTAT = OK
+    VA = TRUE
+    VO = TRUE
+
+  o local_x4  ligne:290  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x5  ligne:291  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x6  ligne:292  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x7  ligne:293  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x8  ligne:294  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o res  ligne:295  colonne:4
+    RESULTAT = OK
+    VA = 7
+    VO = 7
+
+----------------------------------------------------------
+| RESULTAT=OK
+----------------------------------------------------------
+
+----------------------------------------------------------
+| SERVICE=Failure_Path        FAMILLE=nominal
+| TEST=Failure_Path_19
+| location=test/Failure_Path.ptu
+----------------------------------------------------------
+  o local_x1  ligne:303  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x2  ligne:304  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x3  ligne:305  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x4  ligne:306  colonne:4
+    RESULTAT = OK
+    VA = TRUE
+    VO = TRUE
+
+  o local_x5  ligne:307  colonne:4
+    RESULTAT = OK
+    VA = TRUE
+    VO = TRUE
+
+  o local_x6  ligne:308  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x7  ligne:309  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x8  ligne:310  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o res  ligne:311  colonne:4
+    RESULTAT = OK
+    VA = 2
+    VO = 2
+
+----------------------------------------------------------
+| RESULTAT=OK
+----------------------------------------------------------
+
+----------------------------------------------------------
+| SERVICE=Failure_Path        FAMILLE=nominal
+| TEST=Failure_Path_20
+| location=test/Failure_Path.ptu
+----------------------------------------------------------
+  o local_x1  ligne:319  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x2  ligne:320  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x3  ligne:321  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x4  ligne:322  colonne:4
+    RESULTAT = OK
+    VA = TRUE
+    VO = TRUE
+
+  o local_x5  ligne:323  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x6  ligne:324  colonne:4
+    RESULTAT = OK
+    VA = TRUE
+    VO = TRUE
+
+  o local_x7  ligne:325  colonne:4
+    RESULTAT = OK
+    VA = TRUE
+    VO = TRUE
+
+  o local_x8  ligne:326  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o res  ligne:327  colonne:4
+    RESULTAT = OK
+    VA = 8
+    VO = 8
+
+----------------------------------------------------------
+| RESULTAT=OK
+----------------------------------------------------------
+
+----------------------------------------------------------
+| SERVICE=Failure_Path        FAMILLE=nominal
+| TEST=Failure_Path_21
+| location=test/Failure_Path.ptu
+----------------------------------------------------------
+  o local_x1  ligne:335  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x2  ligne:336  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x3  ligne:337  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x4  ligne:338  colonne:4
+    RESULTAT = OK
+    VA = TRUE
+    VO = TRUE
+
+  o local_x5  ligne:339  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x6  ligne:340  colonne:4
+    RESULTAT = OK
+    VA = TRUE
+    VO = TRUE
+
+  o local_x7  ligne:341  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x8  ligne:342  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o res  ligne:343  colonne:4
+    RESULTAT = OK
+    VA = 6
+    VO = 6
+
+----------------------------------------------------------
+| RESULTAT=OK
+----------------------------------------------------------
+
+----------------------------------------------------------
+| SERVICE=Failure_Path        FAMILLE=nominal
+| TEST=Failure_Path_22
+| location=test/Failure_Path.ptu
+----------------------------------------------------------
+  o local_x1  ligne:351  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x2  ligne:352  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x3  ligne:353  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x4  ligne:354  colonne:4
+    RESULTAT = OK
+    VA = TRUE
+    VO = TRUE
+
+  o local_x5  ligne:355  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x6  ligne:356  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x7  ligne:357  colonne:4
+    RESULTAT = OK
+    VA = TRUE
+    VO = TRUE
+
+  o local_x8  ligne:358  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o res  ligne:359  colonne:4
+    RESULTAT = OK
+    VA = 0
+    VO = 0
+
+----------------------------------------------------------
+| RESULTAT=OK
+----------------------------------------------------------
+
+----------------------------------------------------------
+| SERVICE=Failure_Path        FAMILLE=nominal
+| TEST=Failure_Path_23
+| location=test/Failure_Path.ptu
+----------------------------------------------------------
+  o local_x1  ligne:367  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x2  ligne:368  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x3  ligne:369  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x4  ligne:370  colonne:4
+    RESULTAT = OK
+    VA = TRUE
+    VO = TRUE
+
+  o local_x5  ligne:371  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x6  ligne:372  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x7  ligne:373  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x8  ligne:374  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o res  ligne:375  colonne:4
+    RESULTAT = OK
+    VA = 0
+    VO = 0
+
+----------------------------------------------------------
+| RESULTAT=OK
+----------------------------------------------------------
+
+----------------------------------------------------------
+| SERVICE=Failure_Path        FAMILLE=nominal
+| TEST=Failure_Path_24
+| location=test/Failure_Path.ptu
+----------------------------------------------------------
+  o local_x1  ligne:383  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x2  ligne:384  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x3  ligne:385  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x4  ligne:386  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x5  ligne:387  colonne:4
+    RESULTAT = OK
+    VA = TRUE
+    VO = TRUE
+
+  o local_x6  ligne:388  colonne:4
+    RESULTAT = OK
+    VA = TRUE
+    VO = TRUE
+
+  o local_x7  ligne:389  colonne:4
+    RESULTAT = OK
+    VA = TRUE
+    VO = TRUE
+
+  o local_x8  ligne:390  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o res  ligne:391  colonne:4
+    RESULTAT = OK
+    VA = 8
+    VO = 8
+
+----------------------------------------------------------
+| RESULTAT=OK
+----------------------------------------------------------
+
+----------------------------------------------------------
+| SERVICE=Failure_Path        FAMILLE=nominal
+| TEST=Failure_Path_25
+| location=test/Failure_Path.ptu
+----------------------------------------------------------
+  o local_x1  ligne:399  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x2  ligne:400  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x3  ligne:401  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x4  ligne:402  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x5  ligne:403  colonne:4
+    RESULTAT = OK
+    VA = TRUE
+    VO = TRUE
+
+  o local_x6  ligne:404  colonne:4
+    RESULTAT = OK
+    VA = TRUE
+    VO = TRUE
+
+  o local_x7  ligne:405  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x8  ligne:406  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o res  ligne:407  colonne:4
+    RESULTAT = OK
+    VA = 6
+    VO = 6
+
+----------------------------------------------------------
+| RESULTAT=OK
+----------------------------------------------------------
+
+----------------------------------------------------------
+| SERVICE=Failure_Path        FAMILLE=nominal
+| TEST=Failure_Path_26
+| location=test/Failure_Path.ptu
+----------------------------------------------------------
+  o local_x1  ligne:415  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x2  ligne:416  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x3  ligne:417  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x4  ligne:418  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x5  ligne:419  colonne:4
+    RESULTAT = OK
+    VA = TRUE
+    VO = TRUE
+
+  o local_x6  ligne:420  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x7  ligne:421  colonne:4
+    RESULTAT = OK
+    VA = TRUE
+    VO = TRUE
+
+  o local_x8  ligne:422  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o res  ligne:423  colonne:4
+    RESULTAT = OK
+    VA = 0
+    VO = 0
+
+----------------------------------------------------------
+| RESULTAT=OK
+----------------------------------------------------------
+
+----------------------------------------------------------
+| SERVICE=Failure_Path        FAMILLE=nominal
+| TEST=Failure_Path_27
+| location=test/Failure_Path.ptu
+----------------------------------------------------------
+  o local_x1  ligne:431  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x2  ligne:432  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x3  ligne:433  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x4  ligne:434  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x5  ligne:435  colonne:4
+    RESULTAT = OK
+    VA = TRUE
+    VO = TRUE
+
+  o local_x6  ligne:436  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x7  ligne:437  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x8  ligne:438  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o res  ligne:439  colonne:4
+    RESULTAT = OK
+    VA = 0
+    VO = 0
+
+----------------------------------------------------------
+| RESULTAT=OK
+----------------------------------------------------------
+
+----------------------------------------------------------
+| SERVICE=Failure_Path        FAMILLE=nominal
+| TEST=Failure_Path_28
+| location=test/Failure_Path.ptu
+----------------------------------------------------------
+  o local_x1  ligne:447  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x2  ligne:448  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x3  ligne:449  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x4  ligne:450  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x5  ligne:451  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x6  ligne:452  colonne:4
+    RESULTAT = OK
+    VA = TRUE
+    VO = TRUE
+
+  o local_x7  ligne:453  colonne:4
+    RESULTAT = OK
+    VA = TRUE
+    VO = TRUE
+
+  o local_x8  ligne:454  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o res  ligne:455  colonne:4
+    RESULTAT = OK
+    VA = 8
+    VO = 8
+
+----------------------------------------------------------
+| RESULTAT=OK
+----------------------------------------------------------
+
+----------------------------------------------------------
+| SERVICE=Failure_Path        FAMILLE=nominal
+| TEST=Failure_Path_29
+| location=test/Failure_Path.ptu
+----------------------------------------------------------
+  o local_x1  ligne:463  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x2  ligne:464  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x3  ligne:465  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x4  ligne:466  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x5  ligne:467  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x6  ligne:468  colonne:4
+    RESULTAT = OK
+    VA = TRUE
+    VO = TRUE
+
+  o local_x7  ligne:469  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x8  ligne:470  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o res  ligne:471  colonne:4
+    RESULTAT = OK
+    VA = 6
+    VO = 6
+
+----------------------------------------------------------
+| RESULTAT=OK
+----------------------------------------------------------
+
+----------------------------------------------------------
+| SERVICE=Failure_Path        FAMILLE=nominal
+| TEST=Failure_Path_30
+| location=test/Failure_Path.ptu
+----------------------------------------------------------
+  o local_x1  ligne:479  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x2  ligne:480  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x3  ligne:481  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x4  ligne:482  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x5  ligne:483  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x6  ligne:484  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x7  ligne:485  colonne:4
+    RESULTAT = OK
+    VA = TRUE
+    VO = TRUE
+
+  o local_x8  ligne:486  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o res  ligne:487  colonne:4
+    RESULTAT = OK
+    VA = 0
+    VO = 0
+
+----------------------------------------------------------
+| RESULTAT=OK
+----------------------------------------------------------
+
+----------------------------------------------------------
+| SERVICE=Failure_Path        FAMILLE=nominal
+| TEST=Failure_Path_31
+| location=test/Failure_Path.ptu
+----------------------------------------------------------
+  o local_x1  ligne:495  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x2  ligne:496  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x3  ligne:497  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x4  ligne:498  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x5  ligne:499  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x6  ligne:500  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x7  ligne:501  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o local_x8  ligne:502  colonne:4
+    RESULTAT = OK
+    VA = FALSE
+    VO = FALSE
+
+  o res  ligne:503  colonne:4
+    RESULTAT = OK
+    VA = 0
+    VO = 0
+
+----------------------------------------------------------
+| RESULTAT=OK
+----------------------------------------------------------
 .--------------------------------------------------------.
 |                       RESUME                           |
 .--------------------------------------------------------.
 
-Date: Mon Dec  3 17:44:56 2018
-Nombre de test(s) exécuté(s):1
+Date: Tue Jan 22 10:32:39 2019
+Nombre de test(s) exécuté(s):31
 
 Test OK:
 -> Failure_Path_1
+-> Failure_Path_2
+-> Failure_Path_4
+-> Failure_Path_5
+-> Failure_Path_7
+-> Failure_Path_8
+-> Failure_Path_9
+-> Failure_Path_11
+-> Failure_Path_12
+-> Failure_Path_13
+-> Failure_Path_15
+-> Failure_Path_16
+-> Failure_Path_18
+-> Failure_Path_19
+-> Failure_Path_20
+-> Failure_Path_21
+-> Failure_Path_22
+-> Failure_Path_23
+-> Failure_Path_24
+-> Failure_Path_25
+-> Failure_Path_26
+-> Failure_Path_27
+-> Failure_Path_28
+-> Failure_Path_29
+-> Failure_Path_30
+-> Failure_Path_31
 
 Test KO:
+-> Failure_Path_3
+-> Failure_Path_6
+-> Failure_Path_10
+-> Failure_Path_14
+-> Failure_Path_17
