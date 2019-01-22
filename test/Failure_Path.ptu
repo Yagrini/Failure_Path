@@ -101,7 +101,7 @@ SERVICE Failure_Path
             VAR local_x6,       init = TRUE ,       va = TRUE
             VAR local_x7,       init = FALSE ,       va = FALSE
             VAR local_x8,       init = TRUE ,       va = TRUE
-            VAR res,        init = 0 ,      va = 0
+            VAR res,        init = 0 ,      va = 6
             #res = Failure_Path(local_x1,local_x2,local_x3,local_x4,local_x5,local_x6,local_x7,local_x8);
         FIN ELEMENT
     FIN TEST
@@ -165,7 +165,7 @@ SERVICE Failure_Path
             VAR local_x6,       init = TRUE ,       va = TRUE
             VAR local_x7,       init = FALSE ,       va = FALSE
             VAR local_x8,       init = TRUE ,       va = TRUE
-            VAR res,        init = 0 ,      va = 0
+            VAR res,        init = 0 ,      va = 6
             #res = Failure_Path(local_x1,local_x2,local_x3,local_x4,local_x5,local_x6,local_x7,local_x8);
         FIN ELEMENT
     FIN TEST
@@ -229,7 +229,7 @@ SERVICE Failure_Path
             VAR local_x6,       init = TRUE ,       va = TRUE
             VAR local_x7,       init = FALSE ,       va = FALSE
             VAR local_x8,       init = TRUE ,       va = TRUE
-            VAR res,        init = 0 ,      va = 0
+            VAR res,        init = 0 ,      va = 6
             #res = Failure_Path(local_x1,local_x2,local_x3,local_x4,local_x5,local_x6,local_x7,local_x8);
         FIN ELEMENT
     FIN TEST
